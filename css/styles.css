@@ -1,0 +1,96 @@
+/* Custom CSS by Garrett Estrin | Garrett.Estrin.com */
+body {}
+
+.container {
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 75px;
+  margin-top: 55px;
+  color: white;
+  border: solid white 5px;
+}
+
+img {
+  width: 50px;
+}
+
+a {
+  color: black;
+}
+
+.modal-content.custom {
+  /*This sets modul background*/
+}
+
+.indent {
+  text-indent: 15px;
+}
+
+#a {
+  background-image: url('../images/wood.png');
+  background-size: contain;
+  background-position: center;
+}
+
+#b {
+  text-align: center;
+  background-color: white;
+}
+
+#c {
+  background-image: url('../images/wood2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#d {
+  background-image: url('../images/beer.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#e {
+  background-image: url('../images/obdsf.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#f {
+  background-image: url('../images/picture.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#g {background-image: url('https://garrettestrin.github.io/connect_four/sample_image.png');
+background-size: cover;
+background-position: center;}
+
+#h {
+  background-image: url('../images/story.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#i {
+  background-image: url('../images/mole.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.box {
+  height: 210px;
+  border: solid black 1px;
+  cursor: pointer; cursor: hand;
+  text-align: center;
+}
+
+.box:hover {
+  opacity: 0.5;
+}
+
+#footer {
+  text-align: center;
+}
