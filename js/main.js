@@ -18,7 +18,6 @@ function shuffleArray(array) {
 function changeDivColor(){
   newColor = shuffleArray(colors)
   b.style.backgroundColor = newColor
-  body.style.backgroundColor = newColor
   console.log("Color has been changed to " + newColor);
 }
 
