@@ -29,7 +29,7 @@ a {
 }
 
 #a {
-  background-image: url('../images/wood.png');
+  background-image: url('https://s3-us-west-2.amazonaws.com/boxheartweddings/garrettestrin_images/wood-min.png');
   background-size: contain;
   background-position: center;
 }
@@ -37,45 +37,48 @@ a {
 #b {
   text-align: center;
   background-color: white;
+
 }
 
 #c {
-  background-image: url('../images/wood2.png');
+  background-image: url('https://s3-us-west-2.amazonaws.com/boxheartweddings/garrettestrin_images/wood2-min.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #d {
-  background-image: url('../images/beer.png');
+  background-image: url('https://s3-us-west-2.amazonaws.com/boxheartweddings/garrettestrin_images/beer-min.png');
   background-size: cover;
   background-position: center;
 }
 
 #e {
-  background-image: url('../images/obdsf.png');
+  background-image: url('https://s3-us-west-2.amazonaws.com/boxheartweddings/garrettestrin_images/obdsf-min.png');
   background-size: cover;
   background-position: center;
 }
 
 #f {
-  background-image: url('../images/picture.png');
+  background-image: url('https://s3-us-west-2.amazonaws.com/boxheartweddings/garrettestrin_images/picture-min.png');
   background-size: cover;
   background-position: center;
 }
 
-#g {background-image: url('https://garrettestrin.github.io/connect_four/sample_image.png');
-background-size: cover;
-background-position: center;}
+#g {
+  background-image: url('https://s3-us-west-2.amazonaws.com/boxheartweddings/garrettestrin_images/connect-min.png');
+  /*background-image: url('../images/connect1-min.png');*/
+  background-size: cover;
+  background-position: center;}
 
 #h {
-  background-image: url('../images/story.png');
+  background-image: url('https://s3-us-west-2.amazonaws.com/boxheartweddings/garrettestrin_images/story-min.png');
   background-size: cover;
   background-position: center;
 }
 
 #i {
-  background-image: url('../images/mole.png');
+  background-image: url('https://s3-us-west-2.amazonaws.com/boxheartweddings/garrettestrin_images/mole-min.png');
   background-size: cover;
   background-position: center;
 }
@@ -94,3 +97,12 @@ background-position: center;}
 #footer {
   text-align: center;
 }
+
+#logo {
+  margin-top: 15px;
+  animation:spin 8s linear infinite;
+  width: 180px;
+
+}
+
+@keyframes spin { 0% {transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);} }
