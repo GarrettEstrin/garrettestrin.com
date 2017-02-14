@@ -1,5 +1,7 @@
 // Custom JavaScript by Garrett Estrin | GarrettEstrin.com
 
+console.log("%cWhy are you looking here?!?!?!  Are you some kind of hacker???", 'background: red; color: white; font-size: 26px;');
+
 b = document.getElementById('b')
 body = document.getElementsByTagName('body')[0]
 
@@ -18,7 +20,7 @@ function shuffleArray(array) {
 function changeDivColor(){
   newColor = shuffleArray(colors)
   b.style.backgroundColor = newColor
-  console.log("Color has been changed to " + newColor);
+  console.log("Color has been changed to " + newColor)
 }
 
 b.addEventListener('click', changeDivColor)

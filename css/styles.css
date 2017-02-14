@@ -28,6 +28,10 @@ a {
   text-indent: 15px;
 }
 
+p {
+    margin: -40px 0 10px;
+}
+
 #a {
   background-image: url('https://s3-us-west-2.amazonaws.com/boxheartweddings/garrettestrin_images/wood-min.png');
   background-size: contain;
@@ -106,3 +110,74 @@ a {
 }
 
 @keyframes spin { 0% {transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);} }
+
+.small-box {
+  height: 210px;
+  border: solid black 1px;
+  cursor: pointer; cursor: hand;
+  text-align: center;
+  display: none;
+}
+
+.small-box:hover {
+  opacity: 0.5;
+}
+
+.extra-small-box {
+  height: 400px;
+  /*width: 200px;*/
+  border: solid black 1px;
+  cursor: pointer; cursor: hand;
+  text-align: center;
+  display: none;
+}
+
+.extra-small-box:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 991px){
+  .box {
+    display: none;
+  }
+
+  .small-box {
+    display: inline-block;
+  }
+
+  .extra-small-box {
+    display: none;
+  }
+
+  p {
+      margin: -20px 0 10px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .box {
+    display: none;
+  }
+
+  .small-box {
+    display: none;
+  }
+
+  .extra-small-box {
+    display: inline-block;
+  }
+
+  #logo {
+    width: 380px;
+    margin: 0;
+  }
+
+  h1 {
+    margin-top: 17%;
+    font-size: 135px;
+  }
+
+  p {
+      margin: 0 0 10px;
+  }
+}
