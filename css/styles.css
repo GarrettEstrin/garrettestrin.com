@@ -100,6 +100,7 @@ p {
 
 #footer {
   text-align: center;
+
 }
 
 #logo {
@@ -150,6 +151,10 @@ p {
   }
 
   p {
+    font-size: 1.5em;
+  }
+
+  #footer {
       margin: -20px 0 10px;
   }
 }
@@ -168,16 +173,20 @@ p {
   }
 
   #logo {
-    width: 380px;
-    margin: 0;
+    width: 350px;
+    margin: 25px 0 0 0;
   }
 
   h1 {
-    margin-top: 17%;
-    font-size: 135px;
+    margin-top: 150px;
+    font-size: 85px;
   }
 
   p {
+    font-size: 1.5em;
+  }
+
+  #footer {
       margin: 0 0 10px;
   }
 }
