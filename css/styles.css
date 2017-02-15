@@ -137,6 +137,14 @@ p {
   opacity: 0.5;
 }
 
+.modal {
+  -webkit-transform: translateZ(1000px);
+}
+
+.modal-body {
+  z-index: 999;
+}
+
 @media screen and (max-width: 991px){
   .box {
     display: none;
