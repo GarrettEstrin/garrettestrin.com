@@ -7,7 +7,7 @@ body {}
 
 h1 {
   font-size: 75px;
-  margin-top: 55px;
+  margin-top: 135px;
   color: white;
   border: solid white 5px;
 }
@@ -39,9 +39,15 @@ p {
 }
 
 #b {
-  text-align: center;
+  /*background: url(../images/logo-no_circle.png) no-repeat;*/
+  background-size: contain;
   background-color: white;
-
+  border: solid 5px black;
+  border-radius: 50%;
+  animation: square-to-circle 8s .5s infinite cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  height: 350px;
+  width: 350px;
+  margin: 18px;
 }
 
 #c {
@@ -88,10 +94,11 @@ p {
 }
 
 .box {
-  height: 210px;
+  height: 390px;
   border: solid black 1px;
   cursor: pointer; cursor: hand;
   text-align: center;
+  margin: 10px;
 }
 
 .box:hover {
@@ -105,12 +112,10 @@ p {
 
 #logo {
   margin-top: 15px;
-  animation:spin 8s linear infinite;
+  /*animation:spin 8s linear infinite;*/
   width: 180px;
 
 }
-
-@keyframes spin { 0% {transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);} }
 
 .small-box {
   height: 210px;
@@ -197,4 +202,86 @@ p {
   #footer {
       margin: 0 0 10px;
   }
+}
+
+/*.box {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: url(../images/logo-no_circle.png) no-repeat;
+  background-size: contain;
+  background-color: white;
+  border: solid 5px black;
+  border-radius: 50%;
+  animation: square-to-circle 8s .5s infinite cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}*/
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:50%;
+    background: white;
+    transform:rotate(0deg);
+    background: url(../images/logo-no_circle.png) no-repeat;
+ 	background-size: contain;
+  }
+  12.5%  {
+    border-radius:37.5%;
+    background: #c3c5c9;
+    transform:rotate(90deg);
+    background: url(../images/logo-no_circle.png) no-repeat;
+ 	background-size: contain;
+  }
+  25%  {
+    border-radius:25%;
+    background: #5d5e60;
+    transform:rotate(180deg);
+    background: url(../images/logo-no_circle.png) no-repeat;
+ 	background-size: contain;
+  }
+  37.5%  {
+    border-radius:12.5%;
+    background: #454547;
+    transform:rotate(270deg);
+    background: url(../images/logo-no_circle.png) no-repeat;
+ 	background-size: contain;
+  }
+  50% {
+    border-radius:6.25%;
+    background: #E94C09;
+    transform:rotate(360deg);
+    background: url(../images/logo-no_circle.png) no-repeat;
+ 	background-size: contain;
+  }
+62.5%  {
+	border-radius:12.5%;
+	background: #5d5e60;
+	transform:rotate(450deg);
+	background: url(../images/logo-no_circle.png) no-repeat;
+	background-size: contain;
+	}
+  75%  {
+    border-radius:25%;
+    background: #999da3;
+    transform:rotate(540deg);
+    background: url(../images/logo-no_circle.png) no-repeat;
+ 	  background-size: contain;
+  }
+   87.5%  {
+    border-radius:37.5%;
+    background: #5d5e60;
+    transform:rotate(630deg);
+    background: url(../images/logo-no_circle.png) no-repeat;
+ 	  background-size: contain;
+  }
+   100%  {
+    border-radius:50%;
+    background: white;
+    transform:rotate(720deg);
+    background: url(../images/logo-no_circle.png) no-repeat;
+ 	  background-size: contain;
+  }
+}
+
+.col-md-4 {
+    width: 31.333333%;
 }
