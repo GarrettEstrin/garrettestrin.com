@@ -1,0 +1,27 @@
+.jsScroll {
+  width: 100vw;
+  height: 100vh;
+}
+
+.docScroller {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  scroll-snap-points-y: repeat(100%);
+  scroll-snap-type: mandatory;
+  scroll-snap-destination: 100% 0%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+img[data-src], .fade {
+  opacity: 0;
+  transition: opacity 1s;
+}
