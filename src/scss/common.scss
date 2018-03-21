@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .jsScroll {
   width: 100vw;
   height: 100vh;
@@ -15,13 +17,20 @@
 body {
   margin: 0;
   padding: 0;
+  cursor: crosshair;
 }
-img {
-  opacity: 1;
+.container {
+  position: relative;
+  height: 100%;
+  width: 1000px;
+  margin: 0 auto;
+}
+img, .fade-in {
+  opacity: 1!important;
   transition: opacity 1s;
 }
 
-img[data-src], .fade {
-  opacity: 0;
+img[data-src], .fade-out {
+  opacity: 0!important;
   transition: opacity 1s;
 }

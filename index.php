@@ -1,6 +1,7 @@
 <html>
 <head>
     <meta http-equiv="Cache-control" content="public" charset="utf-8">
+    <meta name="viewport" content="width=1050">
     <title>GarrettEstrin.com</title>
       <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
@@ -21,11 +22,27 @@
   </head>
 <body>
 <div class="docScroller">
+  <!-- start nav -->
+  <navigation class="nav">
+    <div class="container">
+      <ul class="nav__menu">
+        <li>About Me</li>
+        <li>Projects</li>
+        <li>Skills</li>
+        <li>Expertise</li>
+      </ul>
+    </div>
+  </navigation>
+  <!-- end nav -->
+  <!-- start header -->
     <header class="jsScroll hdr">
       <div class="container">
         <img data-src="/src/images/logo.png" id="jsLogo" alt="" class="hdr__logo">
+        <h1 class="hdr__title" id="jsHdrTitle">Full-Stack Web Developer</h1>
+        <h2 class="hdr__subtitle" id="jsHdrSubtitle">and <span class="hdr__expertize" id="jshdr__expertize">Pop-Tart&reg; Aficionado</span></h2>
       </div>
     </header>
+    <!-- end header -->
     <section class="jsScroll hero">
       <div class="container">
         <p class="hero__title">About Me</p>

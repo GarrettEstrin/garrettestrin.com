@@ -6,6 +6,9 @@
   padding: 50px 20px;
   box-sizing: border-box;
   text-shadow: $text-shadow;
+  overflow: hidden;
+  line-height: 1.7;
+  font-family: $roboto;
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +17,11 @@
   &__title {
     font-size: 80px;
     width: 100%;
-    text-align: right;
+    text-align: center;
+    align-self: flex-end;
+    opacity: 0;
+    position: relative;
+    z-index: 2;
   }
   // .hdr__subtitle
   &__subtitle {
@@ -22,16 +29,45 @@
     color: $hdr-green;
     width: 100%;
     text-align: center;
-    align-self: center;
+    opacity: 0;
+    position: relative;
+    z-index: 2;
+  }
+  // .hdr__expertize 
+  &__expertize {
+    padding: 2px;
+  }
+  // .hdr__expertize
+  &__expertize:hover {
+    background-color: $hdr-grey;
+    cursor: pointer;
+    color: white;
   }
   // .hdr__logo
   &__logo {
+    // width: 50vw;
+    // height: 50vw;
     max-width: 500px;
     max-height: 500px;
     align-self: center;
     margin: 0 auto;
     background-color: #fff;
     border-radius: 50%;
+    transition: .25s;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  // .hdr__logo--small
+  &__logo--small {
+    // width: 20vw;
+    // height: 20vw;
+    max-width: 230px;
+    max-height: 230px;
+    transition: 1s;
   }
 }
 
