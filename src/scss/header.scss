@@ -9,6 +9,7 @@
   overflow: hidden;
   line-height: 1.7;
   font-family: $roboto;
+  position: relative;
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -68,6 +69,27 @@
     max-width: 230px;
     max-height: 230px;
     transition: 1s;
+  }
+  // .hdr__triangle
+  &__triangle {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  // .hdr__triangle--top 
+  &__triangle--top {
+    border-top: 250px solid #68bd28;
+    border-right: solid 250px transparent;
+    left: 0;
+    top: 30px;
+  }
+  // .hdr__triangle--btm 
+  &__triangle--btm {
+    border-bottom: 250px solid #68bd28;
+    border-left: solid 250px transparent;
+    right: 0;
+    bottom: 0;
   }
 }
 

@@ -36,6 +36,8 @@
   <!-- end nav -->
   <!-- start header -->
     <header class="jsScroll hdr">
+      <div class="hdr__triangle hdr__triangle--top"></div>
+      <div class="hdr__triangle hdr__triangle--btm"></div>
       <div class="container">
         <img data-src="/src/images/logo.png" id="jsLogo" alt="" class="hdr__logo">
         <h1 class="hdr__title" id="jsHdrTitle">Full-Stack Web Developer</h1>
