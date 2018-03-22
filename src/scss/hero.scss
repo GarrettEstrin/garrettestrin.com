@@ -1,4 +1,30 @@
 .hero {
   height: 100%;
   background-color: $hero-orange;
+  position: relative;
+  // .hero__triangle
+  &__triangle {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  // // .hero__triangle--left
+  // &__triangle--left {
+  //   border-top: 250px solid #000;
+  //   border-right: solid 250px transparent;
+  //   right: -250px;
+  //   top: -220px;
+  //   animation: moveIntoFrameFromBottomLeft 1s;
+  //   animation-fill-mode: forwards;
+  // }
+  // // .hero__triangle--right
+  // &__triangle--right {
+  //   border-bottom: 250px solid #000;
+  //   border-left: solid 250px transparent;
+  //   right: -250px;
+  //   bottom: -250px;
+  //   animation: moveIntoFrameFromTopRight 1s;
+  //   animation-fill-mode: forwards;
+  // }
 }

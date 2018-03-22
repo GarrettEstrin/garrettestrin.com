@@ -12,3 +12,47 @@
     height: 110%;
   }
 }
+
+@keyframes moveIntoFrameFromBottomRight {
+  90% {
+    right: 20px;
+    bottom: 20px
+  }
+  100% {
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+@keyframes moveIntoFrameFromTopLeft {
+  90% {
+    left: 20px;
+    top: 50px
+  }
+  100% {
+    left: 0px;
+    top: 30px;
+  }
+}
+
+@keyframes moveIntoFrameFromTopRight {
+  90% {
+    right: 20px;
+    top: 20px
+  }
+  100% {
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes moveIntoFrameFromBottomLeft {
+  90% {
+    left: 20px;
+    bottom: 50px
+  }
+  100% {
+    left: 0px;
+    bottom: 30px;
+  }
+}

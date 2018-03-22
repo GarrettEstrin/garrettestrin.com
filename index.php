@@ -46,6 +46,8 @@
     </header>
     <!-- end header -->
     <section class="jsScroll hero">
+      <div class="hero__triangle hero__triangle--left"></div>
+      <div class="hero__triangle hero__triangle--right"></div>
       <div class="container">
         <p class="hero__title">About Me</p>
       </div>

@@ -81,15 +81,19 @@
   &__triangle--top {
     border-top: 250px solid #68bd28;
     border-right: solid 250px transparent;
-    left: 0;
-    top: 30px;
+    left: -250px;
+    top: -220px;
+    animation: moveIntoFrameFromTopLeft 1s;
+    animation-fill-mode: forwards;
   }
   // .hdr__triangle--btm 
   &__triangle--btm {
     border-bottom: 250px solid #68bd28;
     border-left: solid 250px transparent;
-    right: 0;
-    bottom: 0;
+    right: -250px;
+    bottom: -250px;
+    animation: moveIntoFrameFromBottomRight 1s;
+    animation-fill-mode: forwards;
   }
 }
 
